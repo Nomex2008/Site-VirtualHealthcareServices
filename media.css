@@ -7,6 +7,17 @@
     .header__nav {
         display: none;
     }
+    .header__burger {
+        display: inline-block;
+    }
+    .header__icon {
+        width: 220px;
+        height: 34px;
+      }
+      .header__icon img{
+        height: 27px;
+        width: 180px;
+      }
     /*headerMain*/
     .header__info {
         width: 50%;
@@ -35,6 +46,7 @@
     
     .header__img {
         width: 50%;
+
     }
 
     /*services*/
