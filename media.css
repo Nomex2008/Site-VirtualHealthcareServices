@@ -195,7 +195,7 @@
 @media (max-width:600px) {
     /*header*/
     .header {
-        padding: 9vh 0 0;
+        padding: 9vh 0 3vh;
         height: auto;
     }
     .header__body {
@@ -319,7 +319,7 @@
 @media (max-width:420px) {
     /*header*/
     .header {
-        padding: 9vh 0 0;
+        padding: 9vh 0 3vh;
     }
     .header__body {
         margin-bottom: 9vh;
@@ -417,5 +417,16 @@
     
     .email__btn {
         font-size: 14px;
+    }
+}
+
+@media (max-height:650px) {
+    /*header*/
+    .header {
+        padding: 9vh 0 3vh;
+        height: auto;
+    }
+    .header__body {
+        margin-bottom: 9vh;
     }
 }
