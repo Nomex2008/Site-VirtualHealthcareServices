@@ -112,6 +112,8 @@ body {
 .header__nav {
   display: flex;
   gap: 50px;
+
+  transition: all .3s ease;
 }
 
 .header__link {
@@ -142,7 +144,7 @@ body {
   position: absolute;
   top: 100%;
 
-  transition: all .3s ease;
+  transition: all 1s ease;
 }
 .header__link:hover:after {
   width: 100%;
@@ -152,8 +154,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
 
+  transition: all .3s ease;
+}
+.header__main.active {
+  opacity: 0;
+}
 .header__info {
     width: 50%;
 }
